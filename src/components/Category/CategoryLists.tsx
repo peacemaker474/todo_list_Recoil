@@ -12,11 +12,10 @@ const Lists = styled.ul`
 `;
 
 const List = styled.li`
-    height: 30px;
-    font-size: 1rem;
+    height: 40px;
     border-radius: 5px;
     text-align: center;
-    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
 `;
 
 const Button = styled.button`
@@ -26,6 +25,7 @@ const Button = styled.button`
 
     border-radius: 5px;
     line-height: 20px;
+    font-size: 1.2rem;
     &:hover {
         background-color: rgba(127, 127, 127, .05);
     }
@@ -34,6 +34,7 @@ const Button = styled.button`
         background-color: rgba(127, 127, 127, .1);
         border: 3px solid #A16AE8;
         box-sizing: border-box;
+        font-weight: bold;
     }
 `;
 

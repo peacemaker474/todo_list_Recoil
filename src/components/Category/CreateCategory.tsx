@@ -4,8 +4,8 @@ import styled from "styled-components";
 import { categoriesState, categoryState, toggleAddCategory } from "../../atmos/atmos";
 
 const Form = styled.form`
-    width: 50%;
-    height: 20px;
+    width: 60%;
+    height: 35px;
     margin: 0 auto;
     margin-bottom: 2rem;
 `;
@@ -17,6 +17,7 @@ const Input = styled.input`
     padding-left: 5px;
     border: 1px solid rgba(127, 127, 127, .5);
     border-radius: 5px;
+    font-size: 1.2rem;
 `;
 
 function CreateCategory() {

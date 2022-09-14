@@ -9,12 +9,13 @@ interface IToDo {
 
 const Form = styled.form`
     width: 80%;
-    height: 30px;
-    margin: 2rem auto;
+    height: 40px;
+    margin: 2.5rem auto;
     border: 1px solid rgba(127, 127, 127, .5);
     border-radius: 5px;
 
     input, button {
+        font-size: 1.2rem;
         box-sizing: border-box;
     }
 `;
@@ -23,7 +24,7 @@ const Input = styled.input`
     all: unset;
     width: 80%;
     height: 100%;
-    padding-left: 5px;
+    padding-left: 7px;
 `;
 
 const Button = styled.button`
@@ -33,6 +34,7 @@ const Button = styled.button`
     text-align: center;
     border-left: 1px solid rgba(127, 127, 127, .5);
     cursor: pointer;
+    font-weight: bold;
 `;
 
 function CreateToDo() {
