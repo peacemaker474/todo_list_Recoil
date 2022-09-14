@@ -1,0 +1,7 @@
+{
+  "short_name": "ToDoList",
+  "name": "ToDo List with Recoil",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#ffffff"
+}
